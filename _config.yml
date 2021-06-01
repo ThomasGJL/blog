@@ -9,7 +9,7 @@
 title: studytime
 subtitle: 
 name: studytime
-email: b_aihe@163.com
+email: thomas1127@163.com
 description: 后端技术分享。
 keywords: 个人博客, 技术分享
 encoding: "utf-8"
@@ -17,14 +17,14 @@ favicon: favicon.png
 static-url: 
 
 repository: /blog
-github_url: https://github.com/ThomasGJL/blog
-url: https://thomasgjl.github.io/blog/
+github_url: https://thomasgjl.github.io
+url: https://thomasgjl.github.io
 
 sfblog_url: 
 zhihu_url: 
-base_url: https://thomasgjl.github.io/blog/
+base_url: https://thomasgjl.github.io
 baseurl: ''
-enforce_ssl: https://thomasgjl.github.io/blog/
+enforce_ssl: https://thomasgjl.github.io
 static-url-version: 20210601
 
 ## Gem
