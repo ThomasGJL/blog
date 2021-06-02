@@ -97,9 +97,10 @@ imgrepo: "http://127.0.0.1:4000/static/img"
 
 7.本地预览
 
-配置完成后，在当前主题的文件夹里鼠标右键，git bash here，输入bundle exec jekyll s  这里s是serve的简写。然后就可以在 localhost:4000/
+配置完成后，在cmd窗口项目当前目录下，输入bundle exec jekyll s  这里s是serve的简写。 然后就可以在 localhost:4000/
 
 ![github9][github9]
+![github10][github10]
 
 8.本地文件push到github指定仓库中
 
@@ -127,4 +128,4 @@ imgrepo: "https://yourname.github.io/static/img"
 [github7]: {{"/github-pages-Jekyll-7.jpg" | prepend: site.imgrepo }}
 [github8]: {{"/github-pages-Jekyll-8.png" | prepend: site.imgrepo }}
 [github9]: {{"/github-pages-Jekyll-9.jpg" | prepend: site.imgrepo }}
-
+[github10]: {{"/github-pages-Jekyll-10.jpg" | prepend: site.imgrepo }}
