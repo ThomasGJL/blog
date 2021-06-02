@@ -68,11 +68,55 @@ categories: Jekyll
 
 ![github7][github7]
 
+4.找自己喜欢的主题
+
+jekyll主题模板下载： [http://jekyllthemes.org][http://jekyllthemes.org]
+
+这是一部分主题，选一个自己喜欢的主题。比如选择第一个，进入。这个时候你就有三个选择 
+
+a) 如果选择homepage，你就进入到该主题的GitHub主页，然后该页面有个clone绿色的按钮，有个url地址，这个地址就能用来克隆该主题的所有文件 
+b) download就不用说了。直接解压到所需文件夹里就行 
+c) 选Fork
+
+5.安装bundle
+
+在dos里面，输入gem install bundler
+
+![github8][github8]
+
+出现这个就算安装好了。
+
+
+6.修改配置文件
+
+在clone或者下载之后，各种需要的文件都安装完成之后。修改_config.yml中的配置
+
+url: "http://127.0.0.1:4000"
+
+imgrepo: "http://127.0.0.1:4000/static/img"
+
+7.本地预览
+
+配置完成后，在当前主题的文件夹里鼠标右键，git bash here，输入bundle exec jekyll s  这里s是serve的简写。然后就可以在 localhost:4000/
+
+![github9][github9]
+
+8.本地文件push到github指定仓库中
+
+修改_config.yml的配置
+
+url: "https://yourname.github.io"
+
+imgrepo: "https://yourname.github.io/static/img"
+
+提交后，访问 https://yourname.github.io
+
+
 [这里]: https://thomasgjl.github.io
 [jekyll主题]: http://jekyllthemes.org/
 [点击这里]: https://jekyllrb.com/
-[https://rubyinstaller.org/downloads/]:https://rubyinstaller.org/downloads/
-
+[https://rubyinstaller.org/downloads/]: https://rubyinstaller.org/downloads/
+[http://jekyllthemes.org]: http://jekyllthemes.org
 
 [github1]: {{"/github-pages-Jekyll-1.png" | prepend: site.imgrepo }}
 [github2]: {{"/github-pages-Jekyll-2.jpg" | prepend: site.imgrepo }}
@@ -81,6 +125,6 @@ categories: Jekyll
 [github5]: {{"/github-pages-Jekyll-5.jpg" | prepend: site.imgrepo }}
 [github6]: {{"/github-pages-Jekyll-6.png" | prepend: site.imgrepo }}
 [github7]: {{"/github-pages-Jekyll-7.jpg" | prepend: site.imgrepo }}
-
-
+[github8]: {{"/github-pages-Jekyll-8.png" | prepend: site.imgrepo }}
+[github9]: {{"/github-pages-Jekyll-9.jpg" | prepend: site.imgrepo }}
 
