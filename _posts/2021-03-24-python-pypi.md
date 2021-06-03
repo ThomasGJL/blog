@@ -13,7 +13,7 @@ categories: python
 
 将代码打包并上传到pypi上，大体上分为以下几步：
 
-1、首先创建一个项目，项目名字尽量明确定义包的用途， 项目的层级结构如下（完整的层级结构，dist是打包时候生成的，docs是文档目录，可以用来生成文档，这部分会放在[另一个博客]里）
+1、首先创建一个项目，项目名字尽量明确定义包的用途， 项目的层级结构如下（完整的层级结构，dist是打包时候生成的，docs是文档目录，可以用来生成文档，这部分会放在[另一篇博客]里）
 
 
 ![python-pypi-1][python-pypi-1]
@@ -46,7 +46,7 @@ categories: python
 
 
 [https://pypi.org/]: https://pypi.org/
-[另一个博客]: http://baidu.comD
+[另一篇博客]: https://thomasgjl.github.io/github/github-readthedocs/
 [说明文件]: https://github.com/ThomasGJL/django-github-storage/blob/main/README.md
 [注册PyPI帐号]: https://pypi.org/account/register/
 
