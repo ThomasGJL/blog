@@ -79,18 +79,31 @@ itmes.py文件定义要取得的数据。 例如： Badge的名字等， 下图�
 
 3、运行爬虫
 
+打开CMD窗口， 进入项目目录，输入命令
+
+scrapy crawl IBMBadges_spider -o IBMBadges.json
+
+输出爬虫信息到IBMBadges.json文件。 如果不想看日志，需要加--nolog
+
+![python-scrapy-5][python-scrapy-5]
+
+4、查看结果
+
+打开json文件，查看结果
+
+![python-scrapy-6][python-scrapy-6]
 
 
-
-
-
+[源代码下载]
 
 
 [https://www.credly.com/organizations/ibm/badges]: https://www.credly.com/organizations/ibm/badges
-
+[源代码下载]: https://github.com/ThomasGJL/credly
 
 [python-scrapy-1]: {{"/python-scrapy-1.png" | prepend: site.imgrepo }}
 [python-scrapy-2]: {{"/python-scrapy-2.jpg" | prepend: site.imgrepo }}
 [python-scrapy-3]: {{"/python-scrapy-3.jpg" | prepend: site.imgrepo }}
 [python-scrapy-4]: {{"/python-scrapy-4.jpg" | prepend: site.imgrepo }}
+[python-scrapy-5]: {{"/python-scrapy-5.jpg" | prepend: site.imgrepo }}
+[python-scrapy-6]: {{"/python-scrapy-6.jpg" | prepend: site.imgrepo }}
 
