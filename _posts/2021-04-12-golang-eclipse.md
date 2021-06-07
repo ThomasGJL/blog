@@ -55,6 +55,7 @@ GOPATH 是一些用于 go 来查找包的目录列表，使用 import "包名" �
 
 ![golang-eclipse-6][golang-eclipse-6]
 
+注： 如果需要Run As Go Appliaction 好用，需要删除GOBIN这个环境变量
 
 [菜鸟教程]: https://www.runoob.com/go/go-tutorial.html
 [下载地址]: https://golang.google.cn/dl/
