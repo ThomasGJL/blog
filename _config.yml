@@ -37,11 +37,11 @@ github:
 #  searchId: 
 
 gitment:
-    repo: https://thomasgjl.github.io/
+    repo: ThomasGJL/thomasgjl.github.io
     client_id: 3f61feb8523593f3577a
     client_secret: d3054a367580dfeb83a9bb8b23d18717da2fd7fc
 
-url: "https://thomasgjl.github.io"
+url: "https://thomasgjl.github.io/"
 imgrepo: "https://thomasgjl.github.io/static/img"
 
 
