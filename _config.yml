@@ -41,8 +41,8 @@ gitment:
     client_id: 3f61feb8523593f3577a
     client_secret: d3054a367580dfeb83a9bb8b23d18717da2fd7fc
 
-url: "https://thomasgjl.github.io"
-imgrepo: "https://thomasgjl.github.io/static/img"
+url: "https://thomasgjl.github.io/blog"
+imgrepo: "https://thomasgjl.github.io/blog/static/img"
 
 
 #url: "http://127.0.0.1:4000"
