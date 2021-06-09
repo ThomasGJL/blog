@@ -106,14 +106,13 @@ imgrepo: "http://127.0.0.1:4000/static/img"
 
 修改_config.yml的配置
 
-url: "https://yourname.github.io"
+url: "https://yoursitename"
 
-imgrepo: "https://yourname.github.io/static/img"
-
-提交后，访问 https://yourname.github.io
+imgrepo: "https://yoursitename/static/img"
 
 
-[这里]: https://thomasgjl.github.io
+
+[这里]: https://thomasgjl.github.io/blog
 [jekyll主题]: http://jekyllthemes.org/
 [点击这里]: https://jekyllrb.com/
 [https://rubyinstaller.org/downloads/]: https://rubyinstaller.org/downloads/
