@@ -72,7 +72,7 @@ composer search laravel
 使用 composer 安装 laravel
 
 
-composer create-project laravel/laravel your-project-name --prefer-dist "5.1.*" 
+composer create-project laravel/laravel your-project-name ----prefer-dist "5.1.*" 
 
 
 [https://getcomposer.org/download/]: https://getcomposer.org/download/
