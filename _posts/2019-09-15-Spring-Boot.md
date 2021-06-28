@@ -21,6 +21,21 @@ Spring Initializr 有几种用法：
 
 ![Spring-Boot-1][Spring-Boot-1]
 
+	Project: 选择是使用Maven还是Gradle来创建项目
+	Language: 选择使用的开发语言
+	Spring Boot: 选择Spring Boot版本
+	Project Metadata: 项目的一些基本信息
+	
+	Dependencies: 选择需要的依赖
+
+![Spring-Boot-2][Spring-Boot-2]
+
+填好表单，选好依赖后，可以点击下方GENERATE，导出下载项目
+
 [https://start.spring.io]: https://start.spring.io
+
+
 [Spring-Boot-1]: {{"/Spring-Boot-1.jpg" | prepend: site.imgrepo }}
- 
+[Spring-Boot-2]: {{"/Spring-Boot-2.jpg" | prepend: site.imgrepo }}
+
+
